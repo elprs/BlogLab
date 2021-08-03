@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "yKLRMxNucmCaQ69dQRYQnG4oDpA/nRXeeDZUzs2w1AN6OEr3cJfY5WULwMBXnjGJcxZamvQ/EliC/rJyQdyh1w==",
+  "dgSpecHash": "NtliQURYQttfq9py1gSnE5UPIkV7pgYlcRQF5GeQTUXTeTGVMF/VbowyWsyTYWYzww8P5pc9j4QondY9PrC8rA==",
   "success": true,
   "projectFilePath": "C:\\Users\\paris\\source\\repos\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\paris\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
+    "C:\\Users\\paris\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
