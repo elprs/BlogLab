@@ -12,7 +12,7 @@ namespace BlogLab.Repository
 {
     public class AccountRepository : IAccountRepository
     {
-
+        // This configuration allows the access to the db via the appsettings.json
         private readonly IConfiguration _config;
 
         public AccountRepository( IConfiguration config)
