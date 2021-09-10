@@ -7,6 +7,12 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Threading;
 using System.Threading.Tasks;
+ /// <summary>
+ /// What is a Task? 
+ /// A task is an Onject that represents a work that should be done. 
+ /// A thread is a small set of executable instructions. 
+ /// We use tasks to execute sth in parallel. 
+ /// </summary>
 
 namespace BlogLab.Repository
 {
@@ -70,7 +76,7 @@ namespace BlogLab.Repository
                 CommandType commandType = CommandType.StoredProcedure;
 
                 // Execution of stored procedure that allows to insert an account
-                    applicationUserIdentity = await connection.QuerySingleOrDefault<dynamic>(
+                    applicationUserIdentity = await connection.QuerySingleOrDefaultAsync<ApplicationUserIdentity>(
                     "Account_GetByUserName",
                     new { NormalizedUserName = normalizedUserName },
                     dbTransaction,
@@ -81,5 +87,8 @@ namespace BlogLab.Repository
 
             return applicationUserIdentity;
         }
+
+  
+
     }
 }
