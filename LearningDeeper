@@ -1,0 +1,20 @@
+ What is a Task? 
+ A task is an Object that represents a work that should be done. 
+ A thread is a small set of executable instructions. 
+ We use tasks to execute sth in parallel. 
+ The Task class represents a single operation that does not return a value and that usually executes asynchronously. 
+ Task objects are one of the central components of the task-based asynchronous pattern first introduced in the .NET Framework 4.
+ 
+ what is asynchronous programming in c#?
+ It does not wait for current statement to complete its execution before moving to next statement.
+ Our three approaches 1. Callbacks 2. Promises 3. Async/Await handles the asynchronous programming.
+ more : https://www.tutorialspoint.com/promises-callbacks-and-async-await
+ 
+ Asynchronous programming with async and await : https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/
+ 
+Type Checking: typeof, GetType, or is?
+'typeof' takes a type name (which you specify at compile time).
+'GetType' gets the runtime type of an instance.
+'is' returns true if an instance is in the inheritance tree.
+ 
+ 
