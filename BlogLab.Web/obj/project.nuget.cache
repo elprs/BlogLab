@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "/Q0P1TBWse4XLlaatj0UlvMcFw3qLQqvytNQXSSFxGUtDP9wT7JiSYG6FYGk2PStmU8StQApC2FUDUBMPULFUA==",
+  "dgSpecHash": "ov07Wos1NIFJZfIUFo3EpR30IsFulE+pnH8IoG8zgsJjlg/2RaSIo7GaWr/Woeb1T4I8coW0fNDS1u+rQIj05Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\paris\\source\\repos\\BlogLab\\BlogLab.Web\\BlogLab.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\paris\\.nuget\\packages\\cloudinarydotnet\\1.11.0\\cloudinarydotnet.1.11.0.nupkg.sha512",
     "C:\\Users\\paris\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
+    "C:\\Users\\paris\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\paris\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
   ],
   "logs": []
