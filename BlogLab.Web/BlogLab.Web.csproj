@@ -7,9 +7,13 @@
   <ItemGroup>
     <PackageReference Include="CloudinaryDotNet" Version="1.11.0" />
     <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.19" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BlogLab.Identity\BlogLab.Identity.csproj" />
+    <ProjectReference Include="..\BlogLab.Repository\BlogLab.Repository.csproj" />
+    <ProjectReference Include="..\BlogLab.Services\BlogLab.Services.csproj" />
     <ProjectReference Include="..\BlogLabModels\BlogLabModels.csproj" />
   </ItemGroup>
 
